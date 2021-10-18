@@ -11,11 +11,11 @@ This service converts texts to markdown using [marked](https://marked.js.org/)
 ## 💻 Installation
 
 ```
-git clone https://github.com/marvinjude/gatsby-converter-service.git
+git clone https://github.com/marvinjude/gatsby-markdown-converter-service.git
 ```
 
 ```
-cd gatsby-converter-service
+cd gatsby-markdown-converter-service
 ```
 
 ### Install dependencies
@@ -44,7 +44,7 @@ npm run start
 npm run test
 ```
 
-## ✅ Todo
+## ✅ Todos
 
 - Allow clients to pass options to configure the markdown compiler see [marked advanced option](https://marked.js.org/)
 - The marked library synchrously converts markdown to HTML, refactor conveterer to run in a [worker thread](https://nodejs.org/api/worker_threads.html) to prevent potential DDOS attack
